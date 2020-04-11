@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 
 import "./Dashboard.css";
 
@@ -13,11 +12,6 @@ class Dashboard extends React.Component {
     this.getData();
   }
   componentWillUnmount() {
-    /* stop
-getData() from continuing to run even after unmounting this component. Notice we
-are calling 'clearTimeout()` here rather than `clearInterval()` as in the
-previous example. */
-
     clearTimeout(this.intervalID);
   }
 
@@ -25,7 +19,7 @@ previous example. */
     fetch("https://corona.lmao.ninja/all")
       .then(response => response.json())
       .then(cases => {
-        this.setState({ cases }); // call getData() again in 5 seconds
+        this.setState({ cases });
         this.intervalID = setTimeout(this.getData.bind(this), 5000);
       });
   };
@@ -37,7 +31,7 @@ previous example. */
     return (
       <div className=" container p-2 mb-2  col-11  text-center">
         <div className="head">COVID-19</div>
-        <div className="head mb-2">Wordwide Stats</div>
+        <div className="head mb-2">Worldwide Stats</div>
         <div className="row">
           <div className="col-12 col-md mb-3">
             <div className="cardie py-3 cases">

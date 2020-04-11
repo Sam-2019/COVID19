@@ -1,0 +1,3 @@
+export const GET_WORLDDATA = 'GET_WORLDDATA';
+export const GET_COUNTRYDATA = 'GET_COUNTRYDATA';
+export const DATA_LOADING = 'ITEMS_LOADING';
