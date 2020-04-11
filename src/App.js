@@ -45,7 +45,7 @@ function Header() {
             Charts
           </Link>
 
-          <a href="https://github.com/Sam-2019/Covid-19">
+          <a href="https://github.com/Sam-2019/COVID19">
             <i className="fab fa-github git"></i>
           </a>
         </div>
