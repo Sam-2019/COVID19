@@ -9,7 +9,7 @@ If you trust the John Hopkins Hospital then you can trust the information this a
 provides.
 
 I'd like thank some friends and family who supported me in this endeavor.
-Eddie, Senyo, Samantha, Penuel and Solomon, thank your guys for all feedback.
+Eddie, Senyo, Samantha, Penuel, Judith and Solomon, thanks guys for all feedback.
 
 This is not the final product. I will continue to work to implement more features
 to make the application an enviable one.
