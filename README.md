@@ -17,7 +17,7 @@ features.
 
 Covid-19 Stats is an app built using React.js
 
-Go to [(https://simpledashboard-covid19.netlify.com/)]https://simpledashboard-covid19.netlify.com/
+Go to [(https://simpledashboard-covid19.netlify.com/)](https://simpledashboard-covid19.netlify.com/)
 
 ## React
 
