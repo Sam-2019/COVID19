@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+<<<<<<< HEAD <br>
 With the outbreak of the corona virus, I was motivated to write an
 application to be the go-to source for the individuals and businesses 
 who may need to the number of cases on the go.
