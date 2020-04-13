@@ -64,17 +64,17 @@ class CountryStats extends React.Component {
     } else if (lengthCases > 0) {
       countryContent = (
         <>
-          <div className="navie">
-            <div className="head">Countries</div>
-            <div className="text-right">
-              <Search
-                value={searchTerm}
-                onChange={this.onSearchChange.bind(this)}
-              ></Search>
-            </div>
+        <div className="navie">
+          <div className="head">Countries</div>
+          <div className="text-right">
+            <Search
+              value={searchTerm}
+              onChange={this.onSearchChange.bind(this)}
+            ></Search>
           </div>
-          {content}
-        </>
+        </div>
+        {content}
+      </>
       );
     }
 

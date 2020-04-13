@@ -6,7 +6,7 @@ import CountryStat from "./pages/Country/CountryStats";
 import WorldStat from "./pages/World/Worldstats";
 //import Chart from "./pages/Charts/Chart";
 
-import logo2 from "./logo2.png";
+import logo from "./logo.png";
 
 import "./css/css.css";
 
@@ -30,7 +30,7 @@ function Header() {
     <>
       <nav className="nav shadow-sm sticky-top shardow  ">
         <div className=" covid-head">
-          <img src={logo2} alt="flag" className="covid"></img>
+          <img src={logo} alt="flag" className="covid"></img>
           COVID-19 Stats
         </div>
 

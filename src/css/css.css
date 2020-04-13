@@ -1,135 +1,6 @@
-.cardie {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-clip: border-box;
-  background-color: rgba(82, 78, 78, 0.233);
-  border-radius: 1rem 1rem 0rem 0rem;
-  box-shadow: 0 2px 0 hsla(0, 0%, 100%, 0.15);
-  box-shadow: inset 0 -2px 2px hsla(0, 0%, 0%, 0.1);
-  text-align: center;
-}
-
-.cases,
-.active,
-.deaths,
-.recovered,
-.countries {
-  font-size: 40px;
-}
-
-.cases {
-  color: rgb(245, 230, 97);
-}
-
-.active {
-  color: rgb(245, 156, 97);
-}
-
-.deaths {
-  color: rgb(245, 97, 97);
-}
-
-.recovered {
-  color: rgb(129, 245, 97);
-}
-
-.label {
-  text-align: center;
-  border: 1px;
-  padding: 0.375rem 0.75rem;
-  width: 100%;
-  color: rgb(37, 37, 37);
-  border-radius: 0rem 0rem 1rem 1rem;
-}
-
-.label2 {
-  text-align: center;
-  border: 1px;
-}
-
-.label3 {
-  text-align: right;
-  border-radius: 0rem 0rem 0rem 1rem;
-}
-
-.label2,
-.label3 {
-  padding: 0.3em 0.3em;
-  background-color: rgba(46, 46, 46, 0.233);
-}
-
-.cardie2 {
-  border-radius: 1rem 1rem 0rem 0rem;
-  padding: 0.3rem 0.75rem;
-}
-
-.countries {
-  color: rgb(97, 245, 151);
-}
-
-.case-label {
-  background-color: rgb(245, 230, 97);
-}
-
-.active-label {
-  background-color: rgb(245, 156, 97);
-}
-
-.death-label {
-  background-color: rgb(218, 49, 49);
-}
-
-.recovery-label {
-  background-color: rgb(129, 245, 97);
-}
-
-.country-label {
-  background-color: rgb(97, 245, 151);
-}
-
-.critical-label {
-  background-color: rgb(97, 245, 151);
-}
-
 .head {
   font-size: 25px;
   color: rgb(107, 107, 107);
-}
-
-.details {
-  position: relative;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  min-width: 0;
-  word-wrap: break-word;
-  background-clip: border-box;
-  background-color: rgba(82, 78, 78, 0.233);
-  padding: 0.75em;
-}
-
-.popup {
-  display: -ms-flexbox;
-  display: flex;
-  flex-direction: column;
-  color: rgb(107, 107, 107);
-  background-clip: border-box;
-  position: fixed;
-  top: 43%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgb(46, 46, 46);
-  border-radius: 0rem 0rem 0rem 0rem;
-  z-index: 1000;
-  padding: 1.5em;
-  border-radius: 1rem 1rem 0rem 0rem;
 }
 
 .far {
@@ -164,6 +35,7 @@
     transform: translateZ(0);
   }
 }
+
 .fadeInUp {
   -webkit-animation-name: fadeInUp;
   animation-name: fadeInUp;
@@ -180,37 +52,7 @@
   border-radius: 50%;
 }
 
-.wo {
-  border-radius: 50%;
-  z-index: 1050;
-  position: absolute;
-  top: -15%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-}
-
-.text {
-  font-size: 1em;
-  text-align: center;
-}
-
-.cardie3 {
-  border-radius: 0rem 1rem 0rem 0rem;
-  padding: 0.35em 0em;
-}
-
-.cardie2,
-.cardie3 {
-  position: relative;
-  text-align: center;
-  color: rgb(0, 0, 0);
-}
-
-.cardie4 {
+.country-cardie { 
   position: relative;
   text-align: center;
   color: rgb(0, 0, 0);
@@ -218,17 +60,9 @@
   font-weight: 499;
 }
 
-.label4 {
+.label-2 {
   text-align: center;
   font-size: 0.9em;
-}
-
-#recovered {
-  margin: 0 1.5em;
-}
-
-.critical {
-  background-color: rgba(82, 78, 78, 0.233);
 }
 
 .mynav {
@@ -239,27 +73,14 @@
   justify-content: space-between;
 }
 
-.spin {
-  width: 3rem;
-  height: 3rem;
-}
-
-.spinz {
-  position: fixed;
-  top: 17.5em;
-  left: 0;
-  right: 0;
-  bottom: 0;
-}
-
 .git,
 .link,
 .covid-head {
   color: rgb(107, 107, 107);
 }
 
-.git{
-  padding: 0.5rem 1rem;
+.git {
+  padding: 0.5rem 0.5rem;
 }
 
 .covid-head {
@@ -277,7 +98,6 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.7rem;
-
 }
 
 .navie {
@@ -332,32 +152,139 @@
   padding: 0.5rem 1rem;
 }
 
-.link:hover, .link:focus {
+.link:hover,
+.link:focus {
   text-decoration: none;
   color: rgb(248, 99, 99);
-  
 }
 
-.caselabel {
+.world-cardie {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  background-color: rgba(82, 78, 78, 0.233);
+  border-radius: 1rem 1rem 0rem 0rem;
+  box-shadow: 0 2px 0 hsla(0, 0%, 100%, 0.15);
+  box-shadow: inset 0 -2px 2px hsla(0, 0%, 0%, 0.1);
+  text-align: center;
+  font-size: 40px;
+}
+
+.label-1 {
+  text-align: center;
+  border: 1px;
+  padding: 0.375rem 0.75rem;
+  width: 100%;
+  color: rgb(37, 37, 37);
+  border-radius: 0rem 0rem 1rem 1rem;
+}
+
+.case {
   color: rgb(245, 230, 97);
 }
 
-.activelabel {
+.active {
   color: rgb(245, 156, 97);
 }
 
-.deathlabel {
-  color: rgb(245, 97, 97);
+.death {
+  color: rgb(218, 49, 49);
 }
 
-.recoverylabel {
+.recovered {
   color: rgb(129, 245, 97);
 }
 
-.countrylabel {
+.countries {
   color: rgb(97, 245, 151);
 }
 
-.criticallabel {
+.critical {
   color: rgb(97, 245, 151);
+}
+
+.case-label {
+  background-color: rgb(245, 230, 97);
+}
+
+.active-label {
+  background-color: rgb(245, 156, 97);
+}
+
+.death-label {
+  background-color: rgb(218, 49, 49);
+}
+
+.recovery-label {
+  background-color: rgb(129, 245, 97);
+}
+
+.country-label {
+  background-color: rgb(97, 245, 151);
+}
+
+.critical-label {
+  background-color: rgb(97, 245, 151);
+}
+
+.details {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-clip: border-box;
+  background-color: rgba(82, 78, 78, 0.233);
+  padding: 0.75em;
+}
+
+.popup {
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column;
+  color: rgb(107, 107, 107);
+  background-clip: border-box;
+  position: fixed;
+  top: 43%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(46, 46, 46);
+  border-radius: 0rem 0rem 0rem 0rem;
+  z-index: 1000;
+  padding: 1.5em;
+  border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.wo {
+  border-radius: 50%;
+  z-index: 1050;
+  position: absolute;
+  top: -15%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.text {
+  font-size: 1em;
+  text-align: center;
+}
+
+.spinner {
+  position: fixed;
+  top: 17.5em;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }

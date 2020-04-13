@@ -37,21 +37,21 @@ class View extends React.Component {
     return (
       <div className="container col-10 col-md-6 mt-2 ">
         
-        <div key={this.props.country}>
-          <div className="details mb-3 ">
-            <div className="row ">
-              <div className="col-3 text-center">
-                <img src={this.props.image} alt="flag" className="image"></img>
-              </div>
+      <div key={this.props.country}>
+        <div className="details mb-3 ">
+          <div className="row ">
+            <div className="col-3 text-center">
+              <img src={this.props.image} alt="flag" className="image"></img>
+            </div>
 
-              <div className="col text-left">
-                <span id="country" onClick={this.DetailsOpen}>
-                  {this.props.country}
-                </span>
-              </div>
+            <div className="col text-left">
+              <span id="country" onClick={this.DetailsOpen}>
+                {this.props.country}
+              </span>
             </div>
           </div>
         </div>
+      </div>
 
         {this.state.details ? (
           <Details
