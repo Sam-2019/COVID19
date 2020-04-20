@@ -15,7 +15,7 @@ class Worldstats extends React.Component {
   }
 
   getData = () => {
-    fetch("https://corona.lmao.ninja/all")
+    fetch("https://corona.lmao.ninja/v2/all")
       .then((response) => response.json())
       .then((cases) => {
         this.setState({ cases });

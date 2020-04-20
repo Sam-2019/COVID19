@@ -27,7 +27,7 @@ class CountryStats extends React.Component {
   }
 
   getData = () => {
-    fetch("https://corona.lmao.ninja/countries")
+    fetch("https://corona.lmao.ninja/v2/countries")
       .then((response) => response.json())
       .then((cases) => {
         this.setState({ cases });

@@ -1,4 +1,4 @@
-<<<<<<< HEAD <br>
+
 With the outbreak of the corona virus, I was motivated to write an
 application to be the go-to source for the individuals and businesses 
 who may need to the number of cases on the go.
@@ -8,7 +8,7 @@ If you trust the John Hopkins Hospital then you can trust the information this a
 provides. The information provided by this app is real-time.
 
 I'd like to thank Eddie, Senyo, Samantha, Penuel and Solomon for their contributions
-for the projects. Thanks guys.
+for the project. Thanks guys.
 
 This is not the final product. I will update this app from time to time to add more
 features.
